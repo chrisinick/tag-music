@@ -20,7 +20,7 @@ cd tagmusic
 chmod u+x tagmusic
 ```
 
-Optionally, add tagmusic to PATH.  
+Add tagmusic to PATH to use it from anywhere in the shell.
 
 ### 3. Setup
 
@@ -38,7 +38,7 @@ Paste your Spotify ID and secret into tagmusic_config.json to let One Tagger acc
 ### Start tagging
 
 ```bash
-tagmusic user@host:path/to/music/directory
+tagmusic user@host:/path/to/music/directory
 ```
 
 ## Resource
