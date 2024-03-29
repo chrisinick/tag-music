@@ -1,0 +1,89 @@
+{
+  "platforms": [
+    "beatport",
+    "traxsource",
+    "beatsource",
+    "musicbrainz",
+    "deezer",
+    "spotify"
+  ],
+  "path": "",
+  "tags": [
+    "genre",
+    "style",
+    "releaseDate",
+    "label",
+    "album",
+    "artist",
+    "title"
+  ],
+  "overwriteTags": [],
+  "separators": {
+    "id3": ", ",
+    "mp4": ", "
+  },
+  "id3v24": true,
+  "overwrite": true,
+  "threads": 20,
+  "strictness": 0.7,
+  "mergeGenres": false,
+  "albumArtFile": false,
+  "camelot": false,
+  "parseFilename": false,
+  "filenameTemplate": "%artists% - %title%",
+  "shortTitle": false,
+  "matchDuration": false,
+  "maxDurationDifference": 30,
+  "matchById": false,
+  "multipleMatches": "Default",
+  "stylesOptions": "default",
+  "trackNumberLeadingZeroes": 0,
+  "enableShazam": true,
+  "forceShazam": false,
+  "skipTagged": false,
+  "onlyYear": true,
+  "includeSubfolders": true,
+  "stylesCustomTag": {
+    "id3": "STYLE",
+    "vorbis": "STYLE",
+    "mp4": "STYLE"
+  },
+  "multiplatform": false,
+  "titleRegex": "(?:\\((?=[^()]*?(?:official|original|mix|remix|lyric|lyrics|live|video|audio))(?:(?>[^()]+)|(?R))*\\))|(?:\\{(?=[^{}]*?(?:official|original|mix|remix|lyric|lyrics|live|video|audio))(?:(?>[^{}]+)|(?R))*\\})|(?:\\[(?=[^[\\]]*?(?:official|original|mix|remix|lyric|lyrics|live|video|audio))(?:(?>[^\\[\\]]+)|(?R))*\\])|(?:<(?=[^<>]*?(?:official|original|mix|remix|lyric|lyrics|live|video|audio))(?:(?>[^<>]+)|(?R))*>)|official|original|mix|remix|lyric|lyrics|video|audio|[^\\p{L}\\p{N}\\s.-_]",
+  "moveSuccess": false,
+  "moveFailed": false,
+  "writeLrc": false,
+  "enhancedLrc": false,
+  "capitalizeGenres": true,
+  "spotify": {
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "custom": {
+    "beatport": {
+      "art_resolution": 500,
+      "ignore_version": false,
+      "max_pages": 1
+    },
+    "beatsource": {
+      "art_resolution": 500
+    },
+    "bpmsupreme": {
+      "email": "",
+      "library": "Supreme",
+      "password": ""
+    },
+    "deezer": {
+      "art_resolution": 500
+    },
+    "discogs": {
+      "max_albums": 4,
+      "token": "",
+      "track_number_int": false
+    },
+    "itunes": {
+      "art_resolution": 500
+    }
+  },
+  "type": "autoTagger"
+}
