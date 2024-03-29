@@ -15,8 +15,8 @@ The script mounts your network drive, uses [onetagger-cli](https://github.com/Ma
 ### 2. Download
 
 ```bash
-git clone --depth=1 https://github.com/chrisinick/tagmusic.git
-cd tagmusic
+git clone --depth=1 https://github.com/chrisinick/tag-music.git
+cd tag-music
 chmod u+x tagmusic
 ```
 
@@ -47,5 +47,5 @@ tagmusic user@host:/path/to/music/directory
 
 ## License
 
-Licensed under the [GPLv3](https://github.com/chrisinick/tagmusic/blob/master/LICENSE.txt) License.
+Licensed under the [GPLv3](https://github.com/chrisinick/tag-music/blob/master/LICENSE.txt) License.
 
