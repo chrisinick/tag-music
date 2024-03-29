@@ -24,7 +24,7 @@ Optionally, add tagmusic to PATH.
 
 ### 3. Setup
 
-Paste your Spotify ID and secret into tagmusic_config.json to let onetagger access spotify for tagging.
+Paste your Spotify ID and secret into tagmusic_config.json to let One Tagger access Spotify for tagging.
 
 ```json
   "spotify": {
@@ -41,10 +41,11 @@ Paste your Spotify ID and secret into tagmusic_config.json to let onetagger acce
 tagmusic user@host:path/to/music/directory
 ```
 
-## Resources
+## Resource
 
 [One Tagger](https://onetagger.github.io/)
 
 ## License
 
 Licensed under the [GPLv3](https://github.com/chrisinick/tagmusic/blob/master/LICENSE.txt) License.
+
